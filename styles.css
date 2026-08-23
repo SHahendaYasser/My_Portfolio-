@@ -69,16 +69,6 @@ section {
 .head-nam {
     font-weight:bold;
 }
-.prj-img {
-    border-radius: 20px;
-    direction: ltr;
-    display: flex;
-    width: 30%;
-    padding: 10px 15px; 
-    gap: 20px;
-    object-fit: cover;
-    height: auto;
-}
 .card {
     direction:ltr;
     display:flex;
