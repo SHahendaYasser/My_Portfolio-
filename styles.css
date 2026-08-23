@@ -1,0 +1,152 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+html {
+    background-image:linear-gradient(to bottom, #FDF0ED,#F9E5DE );
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+section {
+    margin-bottom: 30px; 
+}
+.hero-div {
+    display:flex;
+    justify-content:space-between;
+    border-radius:12px;
+    border: 1px solid #E8CEBF;
+    padding: 13px 8px;
+    background-color:#F9E5DE;
+}
+.prj-head {
+    font-weight:bold;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    color:black;
+    font-weight:bold;
+    margin-top:10px;
+    background-color: #E8CEBF;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+.nav-btn {
+    background-color: #F3DCD4;
+    border-radius: 8px;
+    border: 1px solid #E8CEBF;
+    font-weight: bold;
+    margin: 28px 8px ;
+    padding: 5px 8px;
+}
+.nav {
+    display:none;
+    position:fixed;
+    left: 10px;
+    width:90%;
+    background-color: #a3888a;
+    border-radius: 10px;
+    padding: 5px 8px;
+    z-index: 999;
+}
+.nav-btn:hover + .nav,
+.nav:hover {
+    display: block;
+    transition:0.7s;
+}
+.def-img {
+    direction:ltr;
+    display:flex;
+    width: 30%;
+    height: auto;
+    border-radius:12px;
+    gap:20px;
+    padding:10px 15px;
+    object-fit: cover;
+}
+.text-def {
+    direction:ltr;
+    display:flex;
+    justify-content: space-between;
+}
+.head-nam {
+    font-weight:bold;
+}
+.prj-img {
+    border-radius: 20px;
+    direction: ltr;
+    display: flex;
+    width: 30%;
+    padding: 10px 15px; 
+    gap: 20px;
+    object-fit: cover;
+    height: auto;
+}
+.card {
+    direction:ltr;
+    display:flex;
+    
+}
+.card {
+    padding: 10px 15px;
+}
+.pro-jects {
+    display:flex;
+    flex-direction: column;
+    direction: ltr;
+}
+.ver-a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.ver-btn {
+    border-radius: 10px;
+    padding: 5px 8px;
+    background-color: #F3DCD4;
+    border: 1px solid #E8CEBF;
+    margin: 10px;
+}
+.card-link {
+    text-decoration: none;
+    color: black;
+    font-weight:bold ;
+}
+.prj-btn {
+    border-radius: 10px;
+    padding: 5px 8px;
+    background-color:#F3DCD4;
+    border: 1px solid #E8CEBF;
+    margin: 10px;
+}
+
+.emil-btn {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    background-color:#F3DCD4;
+    border: 1px solid #E8CEBF;
+    font-weight:bold;
+}
+.cont-a {
+    text-decoration: none;
+    color:black;
+}
+button:hover {
+  background-color: black;
+  color:#E8CEBF;
+  .card-link {
+    color:#E8CEBF;
+  }
+  .ver-a {
+    color:#E8CEBF;
+  }
+  .cont-a {
+    color:#E8CEBF;
+  }
+  transition:0.7s;
+}
+.cont-a:hover {
+    color: #a3888a;
+    transition:0.7s;
+}
+.nav a:hover {
+    color:blue;
+}
